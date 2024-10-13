@@ -74,7 +74,7 @@ function enviarPedido() {
         const troco = valorPago - totalCarrinho;
         mensagemWhatsApp += `Pagamento: Dinheiro\nValor Pago: R$ ${valorPago.toFixed(2)}\nTroco: R$ ${troco.toFixed(2)}\n`;
     } else if (pagamento === 'pix') {
-        mensagemWhatsApp += `Pagamento: PIX\nChave PIX: 27997294468\n`;
+        mensagemWhatsApp += `Pagamento: PIX\nChave PIX: 27999595386\n`;
     } else if (pagamento === 'cartao') {
         mensagemWhatsApp += `Pagamento: Cartão\n`;
     }
